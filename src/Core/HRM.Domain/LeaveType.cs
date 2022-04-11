@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HRM.Domain
 {
-    public class NewBaseType
+    public class LeaveType
     {
         public int Id { get; set; }
 
