@@ -7,7 +7,7 @@ namespace HRM.Application.Profiles
 {
     public class MappingProfile : Profile
     {
-        public MappingProfile(Parameters)
+        public MappingProfile()
         {
             CreateMap<LeaveRequest, LeaveRequestDto>().ReverseMap();
             CreateMap<LeaveAllocation, LeaveAllocationDto>().ReverseMap();
